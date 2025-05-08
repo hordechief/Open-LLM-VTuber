@@ -74,6 +74,8 @@ def run(console_log_level: str):
         host=server_config.host,
         port=server_config.port,
         log_level=console_log_level.lower(),
+        ssl_keyfile=os.path.join(os.getcwd(),"ssl","key.pem"),
+        ssl_certfile=os.path.join(os.getcwd(),"ssl","cert.pem")
     )
 
 
