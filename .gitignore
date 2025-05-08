@@ -1,3 +1,8 @@
+# ignore temp files
+output.jsonl
+audio.wav
+output*.wav
+
 # ignore the user configuration file
 conf.yaml
 
